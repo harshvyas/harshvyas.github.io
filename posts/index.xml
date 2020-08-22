@@ -1,10 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hello World</title><link>/posts/</link><description>Recent content in Posts on Hello World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>aws-cloud-developement-kit</title><link>/posts/aws-cdk/</link><pubDate>Sat, 22 Aug 2020 00:00:00 -0400</pubDate><guid>/posts/aws-cdk/</guid><description> manual in console scripted via aws-cli or aws-sdk declarative JSON/YAML via cloudformation document-obj-model (DOM) via troposphere componentized via aws-cdk mermaid.initialize({startOnLoad:true,'theme':'dark'}); graph LR A["constructs in stack written in python code"] -- B["cdk-cli compilation"] -- C["cloudformation deployment"]</description><content type="html"><![CDATA[<ol>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hello World</title><link>/posts/</link><description>Recent content in Posts on Hello World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>aws-cloud-developement-kit</title><link>/posts/aws-cdk/</link><pubDate>Sat, 22 Aug 2020 00:00:00 -0400</pubDate><guid>/posts/aws-cdk/</guid><description>AWS Deployment Options manual in console scripted via aws-cli or aws-sdk declarative JSON/YAML via cloudformation document-obj-model (DOM) via troposphere componentized via aws-cdk Workflow mermaid.initialize({startOnLoad:true,'theme':'dark'}); graph LR A["constructs in stack written in python code"] -- B["cdk-cli compilation"] -- C["cloudformation deployment"] Pre-Requisites harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒ node --version v12.18.0 harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒ npm --version 6.14.4 harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒ aws --version aws-cli/2.0.16 Python/3.8.2 Darwin/19.6.0 botocore/2.0.0dev20 harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒ cdk --version 1.60.0 (build 8e3f53a) harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒ python3 --version Python 3.</description><content type="html"><![CDATA[<h2 id="aws-deployment-options">AWS Deployment Options</h2>
+<ol>
 <li>manual in console</li>
 <li>scripted via aws-cli or aws-sdk</li>
 <li>declarative JSON/YAML via cloudformation</li>
 <li>document-obj-model (DOM) via troposphere</li>
 <li>componentized via aws-cdk</li>
 </ol>
+<hr>
+<h2 id="workflow">Workflow</h2>
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true,'theme':'dark'});</script>
 <div class="mermaid">
@@ -14,4 +17,19 @@ graph LR
 
 </div>
 
+<hr>
+<h2 id="pre-requisites">Pre-Requisites</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒  node --version
+v12.18.0
+harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒  npm --version
+6.14.4
+harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒  aws --version
+aws-cli/2.0.16 Python/3.8.2 Darwin/19.6.0 botocore/2.0.0dev20
+harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒  cdk --version
+1.60.0 <span style="color:#f92672">(</span>build 8e3f53a<span style="color:#f92672">)</span>
+harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒  python3 --version
+Python 3.7.6
+harsh.vyas@VYASH-M-6AAE:~/playspace/aws-cdk|⇒  pip3 --version
+pip 19.3.1 from /usr/local/lib/python3.7/site-packages/pip <span style="color:#f92672">(</span>python 3.7<span style="color:#f92672">)</span>
+</code></pre></div><hr>
 ]]></content></item><item><title>First-Post</title><link>/posts/first_post/</link><pubDate>Tue, 18 Aug 2020 22:50:57 -0400</pubDate><guid>/posts/first_post/</guid><description>Hello World &amp;gt;</description><content type="html">&lt;p>Hello World &amp;gt;&lt;/p></content></item><item><title>Test-Post</title><link>/posts/second_post/</link><pubDate>Tue, 18 Aug 2020 00:00:57 -0400</pubDate><guid>/posts/second_post/</guid><description>Test post</description><content type="html">&lt;p>Test post&lt;/p></content></item></channel></rss>
