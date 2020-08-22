@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hello World</title><link>/posts/</link><description>Recent content in Posts on Hello World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>aws-cloud-developement-kit</title><link>/posts/aws-cdk/</link><pubDate>Sat, 22 Aug 2020 00:00:00 -0400</pubDate><guid>/posts/aws-cdk/</guid><description> manual in console scripted via aws-cli or aws-sdk declarative JSON/YAML via cloudformation document-obj-model (DOM) via troposphere componentized via aws-cdk mermaid.initialize({startOnLoad:true}); journey title My working day section Go to work Make tea: 5: Me Go upstairs: 3: Me Do work: 1: Me, Cat section Go home Go downstairs: 5: Me Sit down: 5: Me</description><content type="html"><![CDATA[<ol>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hello World</title><link>/posts/</link><description>Recent content in Posts on Hello World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>aws-cloud-developement-kit</title><link>/posts/aws-cdk/</link><pubDate>Sat, 22 Aug 2020 00:00:00 -0400</pubDate><guid>/posts/aws-cdk/</guid><description> manual in console scripted via aws-cli or aws-sdk declarative JSON/YAML via cloudformation document-obj-model (DOM) via troposphere componentized via aws-cdk mermaid.initialize({startOnLoad:true}); flowchart LR subgraph code (stacks) (constructs) end</description><content type="html"><![CDATA[<ol>
 <li>manual in console</li>
 <li>scripted via aws-cli or aws-sdk</li>
 <li>declarative JSON/YAML via cloudformation</li>
@@ -9,15 +9,11 @@
 <script>mermaid.initialize({startOnLoad:true});</script>
 <div class="mermaid">
   
-journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+flowchart LR
+    subgraph code
+    (stacks)
+    (constructs)
+    end
 
 </div>
 
