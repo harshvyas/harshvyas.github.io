@@ -1,5 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hello World</title><link>/posts/</link><description>Recent content in Posts on Hello World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>aws-cloud-developement-kit</title><link>/posts/aws-cdk/</link><pubDate>Sat, 22 Aug 2020 00:00:00 -0400</pubDate><guid>/posts/aws-cdk/</guid><description>manual in console scripted via aws-cli or aws-sdk declarative JSON/YAML via cloudformation document-obj-model (DOM) via troposphere componentized via aws-cdk mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two] {{ if (.Params.mermaid) }}
-{{ end }}</description><content type="html"><![CDATA[<ol>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hello World</title><link>/posts/</link><description>Recent content in Posts on Hello World</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>aws-cloud-developement-kit</title><link>/posts/aws-cdk/</link><pubDate>Sat, 22 Aug 2020 00:00:00 -0400</pubDate><guid>/posts/aws-cdk/</guid><description> manual in console scripted via aws-cli or aws-sdk declarative JSON/YAML via cloudformation document-obj-model (DOM) via troposphere componentized via aws-cdk mermaid.initialize({startOnLoad:true}); graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two]</description><content type="html"><![CDATA[<ol>
 <li>manual in console</li>
 <li>scripted via aws-cli or aws-sdk</li>
 <li>declarative JSON/YAML via cloudformation</li>
@@ -18,8 +17,4 @@ graph LR;
 
 </div>
 
-<p>{{ if (.Params.mermaid) }}</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>{{ end }}</p>
 ]]></content></item><item><title>First-Post</title><link>/posts/first_post/</link><pubDate>Tue, 18 Aug 2020 22:50:57 -0400</pubDate><guid>/posts/first_post/</guid><description>Hello World &amp;gt;</description><content type="html">&lt;p>Hello World &amp;gt;&lt;/p></content></item><item><title>Test-Post</title><link>/posts/second_post/</link><pubDate>Tue, 18 Aug 2020 00:00:57 -0400</pubDate><guid>/posts/second_post/</guid><description>Test post</description><content type="html">&lt;p>Test post&lt;/p></content></item></channel></rss>
